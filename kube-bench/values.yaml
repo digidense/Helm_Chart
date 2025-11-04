@@ -1,0 +1,18 @@
+serviceAccount:
+  name: kube-bench
+  roleArn: "arn:aws:iam::165220828225:role/eks-cluster-role-20251104045833076200000002"  # update to your IAM role in this account
+
+image:
+  repository: "aquasec/kube-bench"
+  tag: "v0.6.10"                                  # tag you pushed
+  pullPolicy: IfNotPresent
+
+aws:
+  accountId: "165220828225"
+  region: "us-east-1"
+  clusterArn: "arn:aws:eks:us-east-1:165220828225:cluster/my-eks-cluster"  # replace with your actual EKS cluster ARN
+
+benchmark: "eks-1.2.0"
+
+job:
+  name: kube-bench
