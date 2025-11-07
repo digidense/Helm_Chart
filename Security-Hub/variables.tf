@@ -13,7 +13,7 @@ variable "bucket_name" {
 variable "sns_email" {
   type        = string
   description = "Email address for SNS notifications"
-  default     = "shijinjoy76@gmail.com"
+  default     = "ashwini.kanagaraj@digidense.in"
 }
 
 variable "lambda_function_name" {
@@ -21,3 +21,4 @@ variable "lambda_function_name" {
   default     = "export-securityhub-findings"
   description = "Lambda function name"
 }
+
