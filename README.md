@@ -1,4 +1,4 @@
-## Run Terraform commands:Run Terraform commands:
+## Run Terraform commands:
 `terraform init`
 `terraform plan`
 `terraform apply`
@@ -12,4 +12,5 @@ If the bucket is not empty:
 `aws s3 rm s3://securityhub-findings-demo-bucket3456 --recursive`
 
 `terraform destroy`
+
 
