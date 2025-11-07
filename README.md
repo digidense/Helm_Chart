@@ -1,17 +1,18 @@
-Run Terraform commands:
+##### ###### # Run Terraform commands:Run Terraform commands:
 
-terraform init
-terraform plan
-terraform apply
+`terraform init`
+`terraform plan`
+`terraform apply`
 
 
-Trigger the Lambda manually:
+##### Trigger the Lambda manually:
 
-aws lambda invoke --function-name export-securityhub-findings output.json
+`aws lambda invoke --function-name export-securityhub-findings output.json`
 
-Cleanup
+##### Cleanup
 
 If the bucket is not empty:
 
-aws s3 rm s3://securityhub-findings-demo-bucket3456 --recursive
-terraform destroy
+`aws s3 rm s3://securityhub-findings-demo-bucket3456 --recursive`
+
+`terraform destroy`
