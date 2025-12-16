@@ -13,7 +13,7 @@ variable "bucket_name" {
 variable "sns_email" {
   type        = string
   description = "Email address for SNS notifications"
-  default     = "ashwini.kanagaraj@digidense.in"
+  default     = "ashwinikanagaraj3@gmail.com"
 }
 
 variable "lambda_function_name" {
